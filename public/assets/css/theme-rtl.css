@@ -14,6 +14,8 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+
 :root {
   --bs-blue: #1478FC;
   --bs-indigo: #5022E2;
@@ -21,7 +23,7 @@
   --bs-pink: #EE6BFA;
   --bs-red: #FD7D72;
   --bs-orange: #F0980E;
-  --bs-yellow: #FE9A52;
+  --bs-yellow: #2E79CE;
   --bs-green: #4FBF67;
   --bs-teal: #18DEBC;
   --bs-cyan: #21D4DF;
@@ -32,7 +34,7 @@
   --bs-secondary: #764BA2;
   --bs-success: #4FBF67;
   --bs-info: #21D4DF;
-  --bs-warning: #FE9A52;
+  --bs-warning: #2E79CE;
   --bs-danger: #FD7D72;
   --bs-light: #F9FAFD;
   --bs-dark: #353738;
@@ -3678,8 +3680,8 @@ fieldset:disabled .btn {
 
 .btn-warning {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #2E79CE;
+  border-color: #2E79CE;
 }
 
 .btn-warning:hover {
@@ -3713,8 +3715,8 @@ fieldset:disabled .btn {
 
 .btn-warning:disabled, .btn-warning.disabled {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #2E79CE;
+  border-color: #2E79CE;
 }
 
 .btn-danger {
@@ -3977,14 +3979,14 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning {
-  color: #FE9A52;
-  border-color: #FE9A52;
+  color: #2E79CE;
+  border-color: #2E79CE;
 }
 
 .btn-outline-warning:hover {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #2E79CE;
+  border-color: #2E79CE;
 }
 
 .btn-check:focus + .btn-outline-warning, .btn-outline-warning:focus {
@@ -3995,8 +3997,8 @@ fieldset:disabled .btn {
 .btn-check:checked + .btn-outline-warning,
 .btn-check:active + .btn-outline-warning, .btn-outline-warning:active, .btn-outline-warning.active, .btn-outline-warning.dropdown-toggle.show {
   color: #fff;
-  background-color: #FE9A52;
-  border-color: #FE9A52;
+  background-color: #2E79CE;
+  border-color: #2E79CE;
 }
 
 .btn-check:checked + .btn-outline-warning:focus,
@@ -4006,7 +4008,7 @@ fieldset:disabled .btn {
 }
 
 .btn-outline-warning:disabled, .btn-outline-warning.disabled {
-  color: #FE9A52;
+  color: #2E79CE;
   background-color: transparent;
 }
 
@@ -4701,7 +4703,7 @@ fieldset:disabled .btn {
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #85888C;
+  color: #2E79CE;
   background-color: #fff;
   border-color: #CED3D9 #CED3D9 #fff;
 }
@@ -5114,15 +5116,15 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-brand {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
@@ -5135,11 +5137,11 @@ fieldset:disabled .btn {
 
 .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-light .navbar-toggler {
-  color: #85888C;
+  color: #2E79CE;
   border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -5148,13 +5150,13 @@ fieldset:disabled .btn {
 }
 
 .navbar-light .navbar-text {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-light .navbar-text a,
 .navbar-light .navbar-text a:hover,
 .navbar-light .navbar-text a:focus {
-  color: #85888C;
+  color: #2E79CE;
 }
 
 .navbar-dark .navbar-brand {
@@ -5743,13 +5745,13 @@ fieldset:disabled .btn {
 
 .list-group-item-action {
   width: 100%;
-  color: #85888C;
+  color: #2E79CE;
   text-align: inherit;
 }
 
 .list-group-item-action:hover, .list-group-item-action:focus {
   z-index: 1;
-  color: #85888C;
+  color: #2E79CE;
   text-decoration: none;
   background-color: #F2F8FF;
 }
@@ -7317,7 +7319,7 @@ fieldset:disabled .btn {
 }
 
 .link-warning {
-  color: #FE9A52;
+  color: #2E79CE;
 }
 
 .link-warning:hover, .link-warning:focus {
@@ -7777,7 +7779,7 @@ fieldset:disabled .btn {
 }
 
 .border-700 {
-  border-color: #85888C !important;
+  border-color: #2E79CE !important;
 }
 
 .border-800 {
@@ -7821,7 +7823,7 @@ fieldset:disabled .btn {
 }
 
 .border-warning {
-  border-color: #FE9A52 !important;
+  border-color: #2E79CE !important;
 }
 
 .border-danger {
@@ -9496,7 +9498,7 @@ fieldset:disabled .btn {
 }
 
 .text-warning {
-  color: #FE9A52 !important;
+  color: #2E79CE !important;
 }
 
 .text-danger {
@@ -9588,7 +9590,7 @@ fieldset:disabled .btn {
 }
 
 .bg-700 {
-  background-color: #85888C !important;
+  background-color: #2E79CE !important;
 }
 
 .bg-800 {
@@ -9632,7 +9634,7 @@ fieldset:disabled .btn {
 }
 
 .bg-warning {
-  background-color: #FE9A52 !important;
+  background-color: #2E79CE !important;
 }
 
 .bg-danger {
@@ -9861,7 +9863,7 @@ fieldset:disabled .btn {
 }
 
 .text-700 {
-  color: #85888C !important;
+  color: #2E79CE !important;
 }
 
 .text-800 {
@@ -11374,7 +11376,7 @@ fieldset:disabled .btn {
     color: #9DA1A6 !important;
   }
   .text-sm-700 {
-    color: #85888C !important;
+    color: #2E79CE !important;
   }
   .text-sm-800 {
     color: #6F7275 !important;
@@ -12834,7 +12836,7 @@ fieldset:disabled .btn {
     color: #9DA1A6 !important;
   }
   .text-md-700 {
-    color: #85888C !important;
+    color: #2E79CE !important;
   }
   .text-md-800 {
     color: #6F7275 !important;
@@ -14294,7 +14296,7 @@ fieldset:disabled .btn {
     color: #9DA1A6 !important;
   }
   .text-lg-700 {
-    color: #85888C !important;
+    color: #2E79CE !important;
   }
   .text-lg-800 {
     color: #6F7275 !important;
@@ -15754,7 +15756,7 @@ fieldset:disabled .btn {
     color: #9DA1A6 !important;
   }
   .text-xl-700 {
-    color: #85888C !important;
+    color: #2E79CE !important;
   }
   .text-xl-800 {
     color: #6F7275 !important;
@@ -17214,7 +17216,7 @@ fieldset:disabled .btn {
     color: #9DA1A6 !important;
   }
   .text-xxl-700 {
-    color: #85888C !important;
+    color: #2E79CE !important;
   }
   .text-xxl-800 {
     color: #6F7275 !important;
@@ -17479,12 +17481,12 @@ ul {
 }
 
 .text-gradient {
-  background: -o-linear-gradient(-40deg, #fe9a52, #ff5748);
-  background: linear-gradient(-50deg, #fe9a52, #ff5748);
+  background: -o-linear-gradient(-40deg, #2E79CE, #0F2888);
+  background: linear-gradient(-50deg, #2E79CE, #0F2888);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 700;
-  color: #FE9A52;
+  color: #2E79CE;
 }
 
 /*-----------------------------------------------
@@ -17554,8 +17556,8 @@ ul {
 }
 
 .bg-danger-gradient {
-  background: -o-linear-gradient(-241.3deg, #FE9A52 -2.93%, #FF5748 88.81%);
-  background: linear-gradient(-208.7deg, #FE9A52 -2.93%, #FF5748 88.81%);
+  background: -o-linear-gradient(-241.3deg, #2E79CE -2.93%, #0F2888 88.81%);
+  background: linear-gradient(-208.7deg, #2E79CE -2.93%, #0F2888 88.81%);
 }
 
 .bg-warning-gradient {
@@ -17715,7 +17717,7 @@ ul {
 }
 
 .link-700 {
-  color: #85888C !important;
+  color: #2E79CE !important;
 }
 
 .link-700:hover, .link-700:focus {
@@ -17794,7 +17796,7 @@ ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  color: #85888C;
+  color: #2E79CE;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -18026,7 +18028,7 @@ ul {
 }
 
 .icon-warning {
-  color: #FE9A52;
+  color: #2E79CE;
 }
 
 .icon-danger {
@@ -18080,8 +18082,8 @@ ul {
 .btn-collab {
   color: #FFF;
   font-weight: bold;
-  background-image: -o-linear-gradient(-40deg, #fe9a52, #ff5748);
-  background-image: linear-gradient(-50deg, #fe9a52, #ff5748);
+  background-image: -o-linear-gradient(-40deg, #2E79CE, #0F2888);
+  background-image: linear-gradient(-50deg, #2E79CE, #0F2888);
 }
 
 .btn-collab-outline {
@@ -18098,8 +18100,8 @@ ul {
   bottom: 0;
   background-image: inherit;
   background-size: auto;
-  background: -o-linear-gradient(-40deg, #FD7D72, #FE9A52);
-  background: linear-gradient(-50deg, #FD7D72, #FE9A52);
+  background: -o-linear-gradient(-40deg, #FD7D72, #2E79CE);
+  background: linear-gradient(-50deg, #FD7D72, #2E79CE);
   -webkit-mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
   mask: url('data:image/svg+xml;utf8,<svg  xmlns="http://www.w3.org/2000/svg" ><rect x="1" y="1" width="100%" height="100%" style="height:calc(100% - 2px);width:calc(100% - 2px)" rx="6" ry="6" stroke-width="1" fill="transparent" stroke="white"/></svg>') 0/100% 100%;
 }
